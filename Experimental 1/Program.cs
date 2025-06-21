@@ -1,7 +1,8 @@
 ﻿// Aquí definimos la estructura del turno como si fuera un registro
 class Turno
 {
-    public string nombre;   // Nombre del paciente    public string cedula;   // Cédula del paciente
+    public string nombre;   // Nombre del paciente
+    public string cedula;   // Cédula del paciente
     public string fecha;    // Fecha del turno
     public string hora;     // Hora del turno
 }
@@ -9,20 +10,17 @@ class Turno
 // Esta clase maneja la lógica de la agenda usando un vector
 class AgendaTurnos
 {
-    Turno[] turnos = new Turno`[100];
-    // Contador para saber cuántos turnos hemos registrado
-    int contador = 0;
+    Turno[] turnos = new Turno[100]; // Vector para turnos
+    int contador = 0; // Contador para saber cuántos turnos hemos registrado
 
     // Método para agendar un nuevo turno
-    public void AgendaTurnos()
+    public void AgendarTurno()
     {
-        //Validamos si aún hay espacio en el vector
+        // Validamos si aún hay espacio en el vector
         if (contador < turnos.Length)
         {
-            //Nuevo objeto tipo turno
             Turno nuevo = new Turno();
 
-            //Solicitamos ingreso de datos del paciente
             Console.Write("Ingrese nombre del paciente: ");
             nuevo.nombre = Console.ReadLine();
 
@@ -35,34 +33,44 @@ class AgendaTurnos
             Console.Write("Ingrese hora (hh:mm): ");
             nuevo.hora = Console.ReadLine();
 
-            //Guardamos el turno en el vector
             turnos[contador] = nuevo;
-
-            //Aumentamos el contador en 1
             contador++;
 
-            //Mensaje mostrando resueltado exitoso
-            Console.WriteLine("Turno registrado correctamente.\n";
+            Console.WriteLine("Turno registrado correctamente.\n");
+        }
+        else
+        {
+            Console.WriteLine("No hay espacio para más turnos.\n");
         }
     }
-    else
-    {
-        //Si se llena el vector, mostramos el siguiente mensaje
-        Console.WriteLine("No hay espacio para mas turnos. \n");
-    }
-//Muestra de turnos que se van agendando
-public void Mostrarturnos()
-{
-    Console.WriteLine("\nTurnos registrados: ");
 
-    //Recorremos el vector desde el inicio hasta donde hay datos
-    for (int i = 0; i < contador; i++)
+    // Método para mostrar los turnos registrados
+    public void MostrarTurnos()
     {
-        //Imprimimos cada campo del turno
-        Console.WriteLine("Paciente: " + turnos[i].nombre);
-        Console.WriteLine("Cédula: " + AgendaTurnos[i].cedula);
-        Console.WriteLine("Fecha: " + turnos[i].fecha);
-        Console.WriteLine("Hora: " + turnos[i].hora);
-        Console.WriteLine("---------------------------");
+        Console.WriteLine("\nTurnos registrados:");
+
+        for (int i = 0; i < contador; i++)
+        {
+            Console.WriteLine("Paciente: " + turnos[i].nombre);
+            Console.WriteLine("Cédula: " + turnos[i].cedula);
+            Console.WriteLine("Fecha: " + turnos[i].fecha);
+            Console.WriteLine("Hora: " + turnos[i].hora);
+            Console.WriteLine("---------------------------");
+        }
+
+        if (contador == 0)
+        {
+            Console.WriteLine("No hay turnos registrados.\n");
+        }
+    }
+}
+
+//Clase principal con el método Main (punto de entrada del programa)
+class MainApp
+{
+    static void Main()
+    {
+        //Creamos una isntancia en la agenda
+        AgendaTurnos agenda = new AgendaTurnos();
     }
 }
