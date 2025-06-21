@@ -23,6 +23,30 @@ class AgendaTurnos
             Turno nuevo = new Turno();
 
             //Solicitamos ingreso de datos del paciente
-            
+            Console.Write("Ingrese nombre del paciente: ");
+            nuevo.nombre = Console.ReadLine();
+
+            Console.Write("Ingrese cédula: ");
+            nuevo.cedula = Console.ReadLine();
+
+            Console.Write("Ingrese fecha (dd/mm/aaaa): ");
+            nuevo.fecha = Console.ReadLine();
+
+            Console.Write("Ingrese hora (hh:mm): ");
+            nuevo.hora = Console.ReadLine();
+
+            //Guardamos el turno en el vector
+            turnos[contador] = nuevo;
+
+            //Aumentamos el contador en 1
+            contador++;
+
+            //Mensaje mostrando resueltado exitoso
+            Console.WriteLine("Turno registrado correctamente.\n";
         }
+    }
+    else
+    {
+        //Si se llena el vector, mostramos el siguiente mensaje
+        Console.WriteLine("No hay espacio para mas turnos. \n");
     }
