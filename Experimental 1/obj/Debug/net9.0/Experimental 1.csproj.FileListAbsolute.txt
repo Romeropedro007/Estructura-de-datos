@@ -1,0 +1,5 @@
+C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\obj\Debug\net9.0\Experimental 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\obj\Debug\net9.0\Experimental 1.AssemblyInfoInputs.cache
+C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\obj\Debug\net9.0\Experimental 1.AssemblyInfo.cs
+C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\obj\Debug\net9.0\Experimental 1.csproj.CoreCompileInputs.cache
+C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\obj\Debug\net9.0\Experimental 1.sourcelink.json

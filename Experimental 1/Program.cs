@@ -4,7 +4,7 @@ class Turno
     public string nombre;   // Nombre del paciente    public string cedula;   // Cédula del paciente
     public string fecha;    // Fecha del turno
     public string hora;     // Hora del turno
-    }
+}
 
 // Esta clase maneja la lógica de la agenda usando un vector
 class AgendaTurnos
@@ -50,3 +50,10 @@ class AgendaTurnos
         //Si se llena el vector, mostramos el siguiente mensaje
         Console.WriteLine("No hay espacio para mas turnos. \n");
     }
+//Muestra de turnos que se van agendando
+public void Mostrarturnos()
+{
+    Console.WriteLine("\nTurnos registrados: ");
+
+    //Recorremos el vector desde el inicio hasta donde hay datos 
+}
