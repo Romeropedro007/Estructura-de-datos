@@ -55,5 +55,14 @@ public void Mostrarturnos()
 {
     Console.WriteLine("\nTurnos registrados: ");
 
-    //Recorremos el vector desde el inicio hasta donde hay datos 
+    //Recorremos el vector desde el inicio hasta donde hay datos
+    for (int i = 0; i < contador; i++)
+    {
+        //Imprimimos cada campo del turno
+        Console.WriteLine("Paciente: " + turnos[i].nombre);
+        Console.WriteLine("Cédula: " + AgendaTurnos[i].cedula);
+        Console.WriteLine("Fecha: " + turnos[i].fecha);
+        Console.WriteLine("Hora: " + turnos[i].hora);
+        Console.WriteLine("---------------------------");
+    }
 }
