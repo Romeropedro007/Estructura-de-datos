@@ -72,5 +72,18 @@ class MainApp
     {
         //Creamos una isntancia en la agenda
         AgendaTurnos agenda = new AgendaTurnos();
+        int opcion;
+
+        //Menú primcipal del sistema
+        do
+        {
+            Console.WriteLine("---- MENÚ ----");
+            Console.WriteLine("1. Agendar nuevo turno");
+            Console.WriteLine("2. Ver turnos agendados");
+            Console.WriteLine("3. Salir");
+            Console.Write("Seleccione una opción: ");
+
+            
+        }
     }
 }
