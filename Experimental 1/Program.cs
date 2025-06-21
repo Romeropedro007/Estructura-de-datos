@@ -65,16 +65,16 @@ class AgendaTurnos
     }
 }
 
-//Clase principal con el método Main (punto de entrada del programa)
+// Clase principal con el método Main (punto de entrada del programa)
 class MainApp
 {
     static void Main()
     {
-        //Creamos una isntancia en la agenda
+        // Creamos una isntancia en la agenda
         AgendaTurnos agenda = new AgendaTurnos();
         int opcion;
 
-        //Menú primcipal del sistema
+        // Menú primcipal del sistema
         do
         {
             Console.WriteLine("---- MENÚ ----");
@@ -83,7 +83,7 @@ class MainApp
             Console.WriteLine("3. Salir");
             Console.Write("Seleccione una opción: ");
 
-            //Conversion de la entrada del usuario a número
+            // Conversion de la entrada del usuario a número
             string entrada = Console.ReadLine();
             int.TryParse(entrada, out opcion);
             Console.WriteLine();
