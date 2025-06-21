@@ -82,11 +82,30 @@ class MainApp
             Console.WriteLine("2. Ver turnos agendados");
             Console.WriteLine("3. Salir");
             Console.Write("Seleccione una opción: ");
+
+            //Conversion de la entrada del usuario a número
             string entrada = Console.ReadLine();
             int.TryParse(entrada, out opcion);
             Console.WriteLine();
 
-            
-        }
+            // Según la opción elegida, llamamos al método correspondiente
+            if (opcion == 1)
+            {
+                agenda.AgendarTurno(); // Llamamos al método para agendar
+            }
+            else if (opcion == 2)
+            {
+                agenda.MostrarTurnos(); // Llamamos al método para mostrar
+            }
+            else if (opcion == 3)
+            {
+                Console.WriteLine("Saliendo del sistema...");
+            }
+            else
+            {
+                Console.WriteLine("Opción no válida.\n");
+            }
+
+        } while (opcion != 3); // Repetimos mientras no elija salir
     }
 }
