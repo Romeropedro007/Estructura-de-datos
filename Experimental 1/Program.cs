@@ -82,6 +82,9 @@ class MainApp
             Console.WriteLine("2. Ver turnos agendados");
             Console.WriteLine("3. Salir");
             Console.Write("Seleccione una opción: ");
+            string entrada = Console.ReadLine();
+            int.TryParse(entrada, out opcion);
+            Console.WriteLine();
 
             
         }
