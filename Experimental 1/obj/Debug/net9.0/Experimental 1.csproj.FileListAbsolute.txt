@@ -3,3 +3,13 @@ C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 
 C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\obj\Debug\net9.0\Experimental 1.AssemblyInfo.cs
 C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\obj\Debug\net9.0\Experimental 1.csproj.CoreCompileInputs.cache
 C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\obj\Debug\net9.0\Experimental 1.sourcelink.json
+C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\bin\Debug\net9.0\Experimental 1.exe
+C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\bin\Debug\net9.0\Experimental 1.deps.json
+C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\bin\Debug\net9.0\Experimental 1.runtimeconfig.json
+C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\bin\Debug\net9.0\Experimental 1.dll
+C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\bin\Debug\net9.0\Experimental 1.pdb
+C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\obj\Debug\net9.0\Experimental 1.dll
+C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\obj\Debug\net9.0\refint\Experimental 1.dll
+C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\obj\Debug\net9.0\Experimental 1.pdb
+C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\obj\Debug\net9.0\Experimental 1.genruntimeconfig.cache
+C:\Users\TAMELAN\Documents\Estructura de datos\Estructura-de-datos\Experimental 1\obj\Debug\net9.0\ref\Experimental 1.dll
